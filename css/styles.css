@@ -417,6 +417,8 @@ a{
 .icon__project{
   height: 120px;
   width: 120px;
+  border-radius: 5%;
+  border: solid #72b3df 2px;
 }
 
 /* buttons projects */ 

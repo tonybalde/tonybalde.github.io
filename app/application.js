@@ -27,11 +27,11 @@ function demoAhorcado()
 
 function repoPorfolio()
 {
-     window.open("https://www.google.com.ar","_blank"); // cambiar por la url del repo del porfolio
+     window.open("https://github.com/tonybalde/tonybalde.github.io","_blank"); // cambiar por la url del repo del porfolio
 }
 
 function demoPorfolio()
 {
-     window.open("https://www.google.com.ar","_blank");  // cambiar por la url del porfolio
+     window.open("https://tonybalde.github.io","_blank");  // cambiar por la url del porfolio
 }
 
