@@ -40,6 +40,7 @@ function demoPorfolio()
 var localization = {
      "es":
      [
+         {id:"headtitle", text:"Porfolio Personal de Antonio Ernesto Baldessari"}, 
          {id:"home", text:"Inicio"},
          {id:"aboutme", text:"Sobre Mí"},
          {id:"myskills", text:"Skills"},
@@ -68,6 +69,7 @@ var localization = {
 
      ],
      "en": [
+         {id:"headtitle", text:"Antonio Ernesto Baldessari's Personal Porfolio"}, 
          {id:"home", text:"Home"},
          {id:"aboutme", text:"About Me"},
          {id:"myskills", text:"Skills"},
