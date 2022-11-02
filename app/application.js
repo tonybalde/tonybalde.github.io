@@ -35,6 +35,16 @@ function demoPorfolio()
      window.open("https://tonybalde.github.io","_blank");
 }
 
+function repoeCommerce()
+{
+     window.open("https://github.com/tonybalde/ecommerce","_blank");
+}
+
+function demoeCommerce()
+{
+     window.open("https://tonybalde.github.io/ecommerce","_blank");
+}
+
 // Languages - translations
 
 var localization = {
@@ -62,6 +72,7 @@ var localization = {
          {id:"Project__One", text:"Encriptador de Texto"},
          {id:"Project__Two", text:"Juego del Ahorcado"},
          {id:"Project__Three", text:"Pagina Web Porfolio"},
+         {id:"Project__Four", text:"Pagina Web eCommerce"},
          {id:"Contact__Me", text:"Contactame"},
          {id:"Contact__Me___Paragraph", text:"¿Querés contactarme? Completá el siguiente formulario y me pondré en contacto lo antes posible."},
          {id:"developed__by", text:"Desarrollado por Antonio E. Baldessari © 2022"}
@@ -91,6 +102,7 @@ var localization = {
          {id:"Project__One", text:"Text Encripter"},
          {id:"Project__Two", text:"Hangman Game"},
          {id:"Project__Three", text:"Porfolio Webpage"},
+         {id:"Project__Four", text:"eCommerce Webpage"},
          {id:"Contact__Me", text:"Contact Me"},
          {id:"Contact__Me___Paragraph", text:"Do you want to contact me? Complete the following form and I will contact you as soon as possible."},
          {id:"developed__by", text:"Developed by Antonio E. Baldessari © 2022"}
