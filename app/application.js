@@ -1,9 +1,10 @@
 // Buttons
 
-function downloadCv()
-{
-     window.open("files/cvAntonioBaldessari.pdf","_blank");
-}
+// function downloadCv()
+// {
+//      window.open("files/cvAntonioBaldessari.pdf","_blank");
+
+// }
 
 function repoEncriptador()
 {
@@ -113,17 +114,29 @@ var localization = {
    
 // Functions 
 
-   function toggleLanguage(s)
+function downloadCv() {
+     
+     if (document.documentElement.lang === "en") {
+          window.open("files/AntonioBaldessariResume.pdf","_blank");
+        } else if (document.documentElement.lang === "es") {
+          window.open("files/cvAntonioBaldessari.pdf","_blank");
+        }
+}
+
+
+function toggleLanguage(s)
    {
        var lang = s.checked?"en": "es"
        for(var i = 0; i<localization[lang].length;i++){
        var a = localization[lang][i];
          var dom = document.getElementById(a.id)
          if(dom.text){ 
-           dom.text= a.text
+           dom.text= a.text;
+           document.documentElement.setAttribute('lang', 'es');
          }
          else if(dom.textContent){
-           dom.textContent= a.text
+           dom.textContent= a.text;
+           document.documentElement.setAttribute('lang', 'en');
          }
        }
      
