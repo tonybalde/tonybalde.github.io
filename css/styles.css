@@ -356,8 +356,8 @@ a{
 
 .about__me{
   background:#EAF2FD;
-  border-top-left-radius: 10%;
-  border-top-right-radius: 10%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   line-height: 1.5;
   padding: 3rem 0 3rem 0;  
 }
@@ -559,8 +559,8 @@ a{
 .contact{
   margin-top: 12rem;
   background:#EAF2FD;
-  border-bottom-left-radius: 10%;
-  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   line-height: 1.5;
   padding: 3rem 0 0 0;
    
