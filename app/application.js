@@ -137,7 +137,8 @@ function toggleLanguage(s)
          else if(dom.textContent){
            dom.textContent= a.text;
            document.documentElement.setAttribute('lang', 'en');
-         }
+         } 
+         
        }
      
    }

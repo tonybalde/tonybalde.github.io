@@ -41,19 +41,28 @@ a{
   z-index: 100;
 }
 
+.firs__last___name{
+  font-weight: 500;
+}
+
 .menu {
   display: flex;
   flex-direction: row;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  
-  
 }
 
 .menu > li {
   margin-right: 1rem;
   overflow: hidden;
+}
+
+.menu > li:hover{
+  font-weight: 900;
+  font-size: large;
+  text-decoration: underline;
+  transition: .3s ease;
 }
 
 .menu-button-container {
@@ -143,6 +152,14 @@ a{
     color: white;
     background-color: #222;
   }
+
+  .menu > li:hover{
+    font-weight: 500;
+    font-size: large;
+    text-decoration: none;
+    transition: .3s ease;
+  }
+
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
   }
