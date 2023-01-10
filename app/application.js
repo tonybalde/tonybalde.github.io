@@ -1,10 +1,6 @@
-// Buttons
 
-// function downloadCv()
-// {
-//      window.open("files/cvAntonioBaldessari.pdf","_blank");
 
-// }
+
 
 function repoEncriptador()
 {
@@ -124,13 +120,14 @@ function downloadCv() {
 }
 
 
+
 function toggleLanguage(s)
    {
        var lang = s.checked?"en": "es"
        for(var i = 0; i<localization[lang].length;i++){
        var a = localization[lang][i];
          var dom = document.getElementById(a.id)
-         if(dom.text){ 
+         if(dom.text){
            dom.text= a.text;
            document.documentElement.setAttribute('lang', 'es');
          }
