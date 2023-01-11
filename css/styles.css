@@ -681,6 +681,13 @@ footer{
   }
 }
 
+@media (max-width: 768px) {
+  .projects{
+    padding: 3rem 0 3rem 0;
+    height: 460px;
+  }
+}
+
 @media (min-width: 769px) {
   .projects{
     padding: 3rem 0 3rem 0;
@@ -688,11 +695,24 @@ footer{
   }
 }
 
-
-@media (max-width: 768px) {
+@media (max-width: 414px) {
   .projects{
     padding: 3rem 0 3rem 0;
-    height: 450px;
+    height: 480px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 390px) {
+  .projects{
+    padding: 3rem 0 3rem 0;
+    height: 960px;
+  }
+}
+
+@media (min-width: 391px) and (max-width: 393px) {
+  .projects{
+    padding: 3rem 0 3rem 0;
+    height: 960px;
   }
 }
 
