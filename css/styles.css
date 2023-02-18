@@ -16,9 +16,14 @@
   text-align-last: right;
   font-family: 'Roboto', Helvetica, sans-serif;
   background-color: #0E6EB8;
-  background-image: url('../images/moon.png');
+  background-image: url('../images/sun.png');
   background-size: contain;
   background-repeat: no-repeat;
+  transition: 1s ease-in-out;
+}
+
+.dark-mode-btn:hover{
+  background-image: url('../images/moon.png');
 }
 
 /* MENU BURGER 2 */
