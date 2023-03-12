@@ -316,12 +316,55 @@ input:focus + .slider {
 
 .cv__button{
   display: flex;
+  align-items: center;
   padding-top: 2rem;
   justify-content: center;
-  align-items: center;
   padding-bottom: 2rem;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+.text__descargar___cv{
+  display: flex;
+  text-align: center;
+  width: 120px;
+}
+
+.cv__btn__h2{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 12px;
+  border-radius: 5px;
+  border: 1px solid #222;
+  padding: 5px;
 
 }
+
+.cv_btn{
+  border: none;
+}
+
+.cv_btn:hover{
+  font-weight: 900;
+
+}
+
+
+
+.eng_flag{
+  height: 24px;
+  border-radius: 5px;
+}
+
+.spa_flag{
+  height: 24px;
+  border-radius: 5px;
+}
+
 
 .download__cv___btn{
   padding: .5rem 1rem .5rem 1rem;
