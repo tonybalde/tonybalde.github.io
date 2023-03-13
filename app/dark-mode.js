@@ -7,6 +7,7 @@ function changeToDarkMode(){
         case 0:
             mode=1 // Dark Styles
             document.body.style.backgroundColor="#222";
+
             document.getElementById('Top_Nav').style.background = "#1a1a1a";
             document.getElementById('Hello').style.color="#fff ";
             document.getElementById('MyName').style.color="#fff ";
@@ -51,6 +52,7 @@ function changeToDarkMode(){
         case 1:
                 mode=0 // Ligth Styles
                 document.body.style.backgroundColor="#F5F5F8";
+
                 document.getElementById('Top_Nav').style.background = "linear-gradient(to left, #f46b45, #eea849)";
                 document.getElementById('Hello').style.color="#222 ";
                 document.getElementById('MyName').style.color="#222 ";

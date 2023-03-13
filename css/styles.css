@@ -82,15 +82,16 @@ a{
 .menu > li {
   margin-right: 1rem;
   overflow: hidden;
+  transition: .3s ease;
 }
 
 .menu > li:hover{
   font-weight: 900;
-  font-size: large;
+  /* font-size: large; */
   text-decoration: underline;
-  transition: .3s ease;
   --offset: 1em;
-  text-decoration-color: orange;
+  text-decoration-color: red;
+  transform: scale(140%);
 } 
 
 
