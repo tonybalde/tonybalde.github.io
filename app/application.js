@@ -113,14 +113,12 @@ var localization = {
 // Functions 
 
 function downloadCv() {
-     
-     if (document.documentElement.lang === "en") {
-          window.open("files/AntonioBaldessariResume.pdf","_blank");
-        } else if (document.documentElement.lang === "es") {
           window.open("files/cvAntonioBaldessari.pdf","_blank");
-        }
 }
 
+function downloadResume() {
+     window.open("files/AntonioBaldessariResume.pdf","_blank");     
+}
 
 
 function toggleLanguage(s)
