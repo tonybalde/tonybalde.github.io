@@ -359,7 +359,6 @@ input:focus + .slider {
 
 .cv_btn:hover{
   font-weight: 900;
-
 }
 
 
@@ -367,13 +366,22 @@ input:focus + .slider {
 .eng_flag{
   height: 24px;
   border-radius: 5px;
+  transition: .3s;
+}
+
+.eng_flag:hover{
+  transform: scale(140%);
 }
 
 .spa_flag{
   height: 24px;
   border-radius: 5px;
+  transition: .3s;
 }
 
+.spa_flag:hover{
+  transform: scale(140%);
+}
 
 .download__cv___btn{
   padding: .5rem 1rem .5rem 1rem;
