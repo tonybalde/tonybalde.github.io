@@ -89,7 +89,10 @@ a{
   font-size: large;
   text-decoration: underline;
   transition: .3s ease;
+  --offset: 1em;
+  text-decoration-color: orange;
 } 
+
 
 .menu-button-container {
   display: none;
@@ -295,7 +298,6 @@ input:focus + .slider {
   align-items: center;
   justify-content: space-around;
   padding-top: 2rem;
-  
 }
 
 .list__links{
@@ -310,6 +312,12 @@ input:focus + .slider {
 
 .link__social___images{
   height: 45px;
+  transition: .5s;
+}
+
+.link__social___images:hover{
+  transform: rotate(360deg);
+  scale: 150%;
 }
 
 /* Cv Button */
