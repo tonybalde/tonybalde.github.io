@@ -355,6 +355,7 @@ input:focus + .slider {
 
 .cv_btn{
   border: none;
+  background-color: #fff;
 }
 
 .cv_btn:hover{

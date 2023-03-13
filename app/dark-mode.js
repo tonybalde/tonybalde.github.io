@@ -61,9 +61,9 @@ function changeToDarkMode(){
                 document.getElementById('Social_Instagram').style.filter = "invert(7%) sepia(13%) saturate(15%) hue-rotate(333deg) brightness(93%) contrast(99%)";         
                 document.getElementById('download_icon').style.filter = "invert(7%) sepia(13%) saturate(15%) hue-rotate(333deg) brightness(93%) contrast(99%)";  
                 document.getElementById('cv__btn___h2').style.border = "thin solid #222";
-                document.getElementById('cv__btn').style.backgroundColor = "#fff";
+                document.getElementById('cv__btn').style.backgroundColor = "#f5f5f8";
                 document.getElementById('cv__btn').style.color = "#222";
-                document.getElementById('resume___btn').style.backgroundColor = "#fff";
+                document.getElementById('resume___btn').style.backgroundColor = "#f5f5f8";
                 document.getElementById('resume___btn').style.color = "#222";
                 document.getElementById('download__cv').style.color="#222 ";          
                 document.getElementById('About_Me').style.background = "#EAF2FD";
